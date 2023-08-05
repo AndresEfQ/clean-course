@@ -26,15 +26,17 @@
   }
 
   function getBooksFromUrl( url: string) {
-      throw new Error('Function not implemented.');
+    console.log(url);
+    throw new Error('Function not implemented.');
   }
 
   function getSquareArea( side: number ) {
-      throw new Error('Function not implemented.');
+    console.log(side);
+    throw new Error('Function not implemented.');
   }
 
   function printJob() {
-      throw new Error('Function not implemented.');
+    throw new Error('Function not implemented.');
   }
 
 })();
