@@ -11,8 +11,7 @@
   function getActorBioById( id: string ) {
       console.log({ id });
   }
-  
-  // Crear una película
+
   interface Movie {
     cast:         string[];
     description:  string;
@@ -24,7 +23,6 @@
       console.log({ title, description, rating, cast });
   }
 
-  // Crea un nuevo actor
   function createNewActor( fullName: string, birthdate: Date ): boolean {
       
       // tarea asincrona para verificar nombre
@@ -32,12 +30,10 @@
       // ..
       if ( fullName === 'fernando' ) return false;
 
-      console.log('Crear actor');
+      console.log('Crear actor', birthdate);
       return true;        
 
   }
-
-  
 
 
 })();
